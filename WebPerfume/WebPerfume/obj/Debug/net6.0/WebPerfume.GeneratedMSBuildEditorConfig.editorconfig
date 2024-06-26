@@ -1,0 +1,133 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebPerfume
+build_property.RootNamespace = WebPerfume
+build_property.ProjectDir = D:\Learnspace\HK6\LTWeb\ThucTapChuyenMon\WebPerfume\WebPerfume\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Learnspace\HK6\LTWeb\ThucTapChuyenMon\WebPerfume\WebPerfume
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Areas/Admin/Views/HomeAdmin/ChiTietDonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXENoaVRpZXREb25IYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Areas/Admin/Views/HomeAdmin/DanhSachDonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhTYWNoRG9uSGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Areas/Admin/Views/HomeAdmin/DanhSachSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhTYWNoU2FuUGhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Areas/Admin/Views/HomeAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Areas/Admin/Views/HomeAdmin/InventoryStatistics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEludmVudG9yeVN0YXRpc3RpY3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Areas/Admin/Views/HomeAdmin/SuaSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YVNhblBoYW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Areas/Admin/Views/HomeAdmin/ThemSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1TYW5QaGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Areas/Cart/Views/CartHome/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FydFxWaWV3c1xDYXJ0SG9tZVxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Areas/Cart/Views/CartHome/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FydFxWaWV3c1xDYXJ0SG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Areas/Cart/Views/CartHome/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FydFxWaWV3c1xDYXJ0SG9tZVxQYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Areas/Cart/Views/CartHome/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FydFxWaWV3c1xDYXJ0SG9tZVxTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Areas/Cart/Views/CartHome/SuccessBank.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FydFxWaWV3c1xDYXJ0SG9tZVxTdWNjZXNzQmFuay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Areas/Cart/Views/CartHome/SuccessCOD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FydFxWaWV3c1xDYXJ0SG9tZVxTdWNjZXNzQ09ELmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Areas/Cart/Views/HomeCart/_LayoutCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2FydFxWaWV3c1xIb21lQ2FydFxfTGF5b3V0Q2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Views/Home/LoaiSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2FpU2FuUGhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Views/Home/ProductDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0RGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Views/Home/TimKiemSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaW1LaWVtU2FuUGhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Views/Shared/Components/MenuNuocHoa/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudU51b2NIb2FcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Views/Shared/_LayoutPerfum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRQZXJmdW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Views/Shared/_LayoutProductDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRQcm9kdWN0RGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Views/Shared/_PartialSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsU2FuUGhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Views/Shared/_PartialTimKiemSP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsVGltS2llbVNQLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learnspace/HK6/LTWeb/ThucTapChuyenMon/WebPerfume/WebPerfume/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8hwopvdi0e

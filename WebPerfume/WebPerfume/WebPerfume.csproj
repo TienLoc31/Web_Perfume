@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Shared\Error.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+    <PackageReference Include="X.PagedList" Version="8.4.7" />
+    <PackageReference Include="X.PagedList.Mvc.Core" Version="8.4.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Cart\Data\" />
+    <Folder Include="Areas\Cart\Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Areas\Admin\Views\HomeAdmin\ChiTietDonHang.cshtml" />
+    <None Include="Areas\Admin\Views\HomeAdmin\DanhSachDonHang.cshtml" />
+    <None Include="Areas\Admin\Views\HomeAdmin\DanhSachSanPham.cshtml" />
+    <None Include="Areas\Admin\Views\HomeAdmin\Index.cshtml" />
+    <None Include="Areas\Admin\Views\HomeAdmin\SuaSanPham.cshtml" />
+    <None Include="Areas\Admin\Views\HomeAdmin\ThemSanPham.cshtml" />
+    <None Include="Areas\Admin\Views\Shared\_LayoutAdmin.cshtml" />
+    <None Include="Areas\Cart\Views\CartHome\Cart.cshtml" />
+    <None Include="Areas\Cart\Views\CartHome\Index.cshtml" />
+    <None Include="Areas\Cart\Views\CartHome\Payment.cshtml" />
+    <None Include="Areas\Cart\Views\CartHome\Success.cshtml" />
+    <None Include="Areas\Cart\Views\CartHome\SuccessBank.cshtml" />
+    <None Include="Areas\Cart\Views\CartHome\SuccessCOD.cshtml" />
+    <None Include="Areas\Cart\Views\HomeCart\_LayoutCart.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\LoaiSanPham.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\Home\ProductDetail.cshtml" />
+    <None Include="Views\Home\TimKiemSanPham.cshtml" />
+    <None Include="Views\Shared\Components\MenuNuocHoa\Default.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_LayoutPerfum.cshtml" />
+    <None Include="Views\Shared\_LayoutProductDetail.cshtml" />
+    <None Include="Views\Shared\_PartialSanPham.cshtml" />
+    <None Include="Views\Shared\_PartialTimKiemSP.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="Views\_ViewImports.cshtml" />
+    <None Include="Views\_ViewStart.cshtml" />
+  </ItemGroup>
+
+</Project>

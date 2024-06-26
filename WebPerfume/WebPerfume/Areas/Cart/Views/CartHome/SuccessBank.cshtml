@@ -1,0 +1,13 @@
+﻿@model WebPerfume.Models.TOrder
+@{
+    ViewData["Title"] = "SuccessBank";
+    Layout = "~/Areas/Cart/Views/HomeCart/_LayoutCart.cshtml";
+}
+
+<div class="alert alert-success">
+    <h2>Bạn vừa đặt hàng thanh toán bằng thẻ ngân hàng thành công</h2>
+    <h2>Mã khách hàng của bạn là : @Model.MaKh</h2>
+    <h2>Mã đặt hàng của bạn là : @Model.OrderId</h2>
+    <h2>Bạn hãy chuyển khoản vào số tài khoản: 1827377378282, ngân hàng MB bank (Lưu ý nội dung chuyển khoản bao gồm Mã khách hàng và mã đơn hàng)</h2>
+    <h2>Chúng tôi sẽ liên hệ với bạn khi bạn thanh toán thành công!</h2>
+</div>

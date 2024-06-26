@@ -1,0 +1,97 @@
+﻿@model IEnumerable<WebPerfume.Models.TOrderDetail>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "ChiTietDonHang";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@*<div class="row">
+    <div class="col-md-4">
+        <form method="get" asp-action="ChiTietDonHang">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label>Id: </label>
+                <input type="Text" class="form-control mx-sm-3" value="@ViewBag.Keyword" name="searchString" placeholder="Nhập id">
+            </div>
+            <div class="form-group mt-1">
+                <input type="submit" value="Tìm kiếm" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>*@
+<h2>Chi Tiết Đơn Hàng</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Mã Chi Tiết Đơn Hàng
+                </th>
+                <th>
+                    Mã Đơn Hàng
+                </th>
+                <th>
+                    Mã Sản Phẩm
+                </th>
+                <th>
+                    Số Lượng
+                </th>
+                <th>
+                    Thành Tiền
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int i = 0;
+                string @cls = "table-success";
+            }
+
+            @foreach (var item in Model)
+            {
+                i = i + 1;
+                cls = "table-success";
+                if (i % 2 == 0)
+                {
+                    cls = "table-primary";
+                }
+                <tr class="@cls">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OrderDetailId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OrderId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MaSp)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SoLuong)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ThanhTien)
+                    </td>
+
+                    <td>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    .table-container {
+        overflow-x: auto;
+    }
+
+    .table {
+        width: 100%;
+        max-width: 100%;
+    }
+</style>

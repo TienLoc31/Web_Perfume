@@ -1,0 +1,107 @@
+﻿@model List<WebPerfume.Models.Cart.Cartitem>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Cart/Views/HomeCart/_LayoutCart.cshtml";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th class="goods-page-image">Image</th>
+            <th class="goods-page-description">Description</th>
+            <th class="goods-page-ref-no">Ref No</th>
+            <th class="goods-page-quantity">Quantity</th>
+            <th class="goods-page-price">Unit price</th>
+            @*<th class="goods-page-total" colspan="2">Total</th>*@
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="goods-page-image">
+                    <a href="javascript:;">
+                        <img src="@Url.Content("../ProductImages/" + item.sanPham.AnhSp)" alt="">
+                    </a>
+                </td>
+                <td class="goods-page-description">
+                    <h3>
+                        <a href="javascript:;">@item.sanPham.TenSp</a>
+                    </h3>
+                    <p>
+                        <strong>@item.sanPham.MaSp</strong>
+                    </p>
+                    <em></em>
+                </td>
+                <td class="goods-page-ref-no">
+                    Authentic
+                </td>
+                <td class="goods-page-quantity">
+                    <div class="product-quantity">
+                        <label for="quantity">Số lượng:</label>
+                        <input type="number" id="quantity" name="quantity" min="0" max="999" value="@item.Quantity" data-id="@item.sanPham.MaSp" onchange="updateQuantity('@item.sanPham.MaSp', this.value)">
+                    </div>
+                </td>
+                <td class="goods-page-price">
+                    <strong>
+                        <span id="Gia-Tien">@item.sanPham.GiaLonNhat</span>
+                    </strong>
+                </td>
+                <td class="goods-page-total">
+                    <strong>
+                        <span id="Tong-tien"></span>
+                    </strong>
+                </td>*
+                <td class="del-goods-col">
+                    <a class="del-goods" href="javascript:;" onclick="deleteItem('@item.sanPham.MaSp')"></a>
+                </td>
+            </tr>
+
+            @*<script>
+                // get all quantity input fields
+                var quantityInputs = document.querySelectorAll('.product-quantity input');
+
+                // add event listeners to all quantity input fields to update localStorage
+                quantityInputs.forEach(function (quantityInput) {
+                    // get the product ID from the data-id attribute
+                    var productId = quantityInput.dataset.id;
+
+                    // set the initial quantity value from localStorage, if available
+                    if (localStorage.getItem(productId)) {
+                        quantityInput.value = localStorage.getItem(productId);
+                    }
+
+                    quantityInput.addEventListener("change", function () {
+                        // get the updated quantity value
+                        var newQuantity = quantityInput.value;
+
+                        // store the new quantity value in localStorage
+                        localStorage.setItem(productId, newQuantity);
+                    });
+                });
+            </script>*@
+            
+        }
+    </tbody>
+</table>
+
+<div class="shopping-total">
+    <ul>
+
+        <li class="shopping-total-price">
+            <em></em>
+            <strong class="price"><span id="total-price"></span></strong>
+        </li>
+    </ul>
+</div>
+<button class="btn btn-primary" onclick="calculateTotal()" type="submit">Tính tổng tiền <i class="fa fa-check"></i></button>
+<form method="post" action="@Url.Action("Payment", "Cart")">
+    <button class="btn btn-checkout" onclick="calculateTotal()" type="submit">checkout <i class="fa fa-check"></i></button>
+</form>
+
+
+
+
+
+

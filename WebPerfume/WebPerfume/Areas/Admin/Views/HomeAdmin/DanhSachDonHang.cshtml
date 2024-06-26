@@ -1,0 +1,100 @@
+﻿@model IEnumerable<WebPerfume.Models.TOrder>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "DanhSachDonHang";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Danh Sách Đơn Hàng</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Ngày Tháng
+                </th>
+                <th>
+                    Mã Khách Hàng
+                </th>
+                <th>
+                    Tên Khách Hàng
+                </th>
+                <th>
+                    Phuong thức TT
+
+                </th>
+                <th>
+                    Sđt
+                </th>
+                <th>
+                    Địa Chỉ
+                </th>
+
+
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int i = 0;
+                string @cls = "table-success";
+            }
+            @foreach (var item in Model)
+            {
+                i = i + 1;
+                cls = "table-success";
+                if (i % 2 == 0)
+                {
+                    cls = "table-primary";
+                }
+                <tr class="@cls">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CreatedDate)
+
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MaKh)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TenKh)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Pttt)
+
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Sdt)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DiaChi)
+                    </td>
+
+
+
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.OrderId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.OrderId">Details</a> |
+                        <a asp-controller="admin" asp-action="XoaDonHang" asp-route-id="@item.OrderId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+
+<style>
+    .table-container {
+        overflow-x: auto;
+    }
+
+    .table {
+        width: 100%;
+        max-width: 100%;
+    }
+</style>
